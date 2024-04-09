@@ -1,0 +1,403 @@
+.Samsung{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.head-start{
+    font-family: head;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.head-start nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-start nav ul li{
+    margin-right: 20px;
+    list-style-type: none;
+    font-size:xx-large;
+}
+
+.head-start img{
+    width: 200px;
+    height: auto;
+}
+
+.head-start img:hover {
+    transform: scale(1.05); 
+}
+
+/* Navigation tab css */
+.head-start a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.head-start a:hover {
+    color: #007bff; 
+    font-size: larger;
+}
+
+.samsung-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: head;
+    font-size: 30px;
+}
+
+.samsung-layout img {
+    width: 980px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.samsung-layout div {
+    flex: 1;
+}
+
+.samsung-layout h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.samsung-layout p {
+    color: #666;
+}
+
+.samsung-layout a {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.samsung-layout a:hover {
+    background-color: red;
+}
+
+.samsung-layout a:active {
+    background-color: blue;
+}
+  
+.product1, .product2, .product3{
+    display: flex;
+    margin-bottom: 20px;
+    font-family: head;
+}
+  
+.product1 img, .product2 img, .product3 img{
+    width: 390px;
+    height: auto;
+}
+  
+.product1>div, .product2>div, .product3>div{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.product1 h3, .product2 h3, .product3 h3{
+    font-size: 30px;
+    margin: 2px;
+    text-align: center;
+}
+
+.product1 div p, .product2 div p, .product3 div p{
+    font-size: 30px;
+    margin: 5px;
+    color: #444;
+}
+  
+.product1 button, .product2 button, .product3 button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.product1 button:hover, .product2 button:hover, .product3 button:hover{
+    background-color: #0dec5e;
+}
+ 
+.samsung-about h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.samsung-row div h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.samsung-row div p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.company{
+    display: grid;
+    grid-template-areas: "img txt";
+    font-family: back;
+    font-size: 30px;
+}
+
+.company > div:nth-child(1){
+    grid-area: txt;
+}
+
+.company > div:nth-child(2){
+    grid-area: img;
+}
+
+.invention{
+    display: grid;
+    grid-template-areas: "txt img";
+    font-family: back;
+    font-size: 30px;
+}
+
+.invention > div:nth-child(1){
+    grid-area: img;
+}
+
+.invention > div:nth-child(2){
+    grid-area: txt;
+}
+
+.company p, .invention p{
+    font-size: 30px;
+    text-indent: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* margin-top: 15%; */
+    margin-bottom: 10%;
+}
+
+.company img, .invention img{
+    width: 600px;
+    margin-right: 50px;
+    margin-left: 100px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.company h3, .invention h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.contact {
+    padding: 40px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.contact h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-family: back;
+    font-size: 20px;
+}
+
+.content div {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.content div h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content div p {
+    color: #666;
+}
+
+.sub-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-family: back;
+    font-size: 20px;
+}
+
+.sub-content div {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa; 
+    text-align: center;
+}
+
+.sub-content div h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sub-content div p {
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    font-family: back;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer input[type="number"],
+footer input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: flex;
+}
+
+footer ul li a {
+    color: #fffcfc;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+footer ul li a:hover {
+    color: #007bff; 
+}
+
+/* Newsletter Form Styling */
+.information{
+    width: 80%;
+    padding: 10px;
+    margin: 20px ;
+    display: flex;
+}
+
+form {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-family: back;
+  }
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e4dd11;
+}
+
+
+/* Social Media Styling */
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    justify-content: center;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.social-media ul li img {
+    transition: transform 0.3s;
+}
+
+.social-media ul li:hover img {
+    transform: scale(1.2);
+}
+
+.social-media ul li:hover a {
+    color: #183eea;
+}
+
+/* media screen and responsiveness */
+@media screen and (max-width: 670px){
+    section{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
+
+/* 2 font families */
+@font-face {
+    font-family: head;
+    src: url(../fonts/NightPumpkind-1GpGv.ttf);
+}
+
+@font-face {
+    font-family: back;
+    src: url(../fonts/Blacknorthdemo-mLE25.otf);
+}
